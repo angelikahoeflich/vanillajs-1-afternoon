@@ -4,7 +4,9 @@
 // console.log(idInput, colorInput)
 
 function setCard (){
-  const someCard = document.getElementById(idInput.value);
+  const card = document.getElementById(idInput.value);
 
-  colorInput.value = someCard.style.color;
+  
+ // console.log(card)
+ card.style.color = colorInput.value
 }
